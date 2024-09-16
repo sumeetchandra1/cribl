@@ -1,0 +1,14 @@
+# application.yml
+server:
+  port: 8080
+  tomcat:
+    connection-timeout: 60000
+
+log:
+  directory: /var/log
+
+spring:
+  servlet:
+    multipart:
+      max-file-size: 1GB
+      max-request-size: 1GB
